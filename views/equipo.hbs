@@ -1,0 +1,15 @@
+{{> header titulo="Página de equipos"}}
+
+    <p>
+        {{titulo}}
+    </p>
+    <ul>
+        {{#each equipos}}
+            <li>{{nombre}} - {{descensos}} </li>
+            {{else}}
+            <li>Sin equipos</li>
+        {{/each}}
+    </ul>
+
+    
+{{> footer year="2021" }}
